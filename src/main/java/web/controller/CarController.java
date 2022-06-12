@@ -28,7 +28,7 @@ public class CarController {
             model.addAttribute("finishCarList", finishCarList);
         } else {
             finishCarList.addAll(carlist);
-            model.addAttribute("finishCarList", finishCarList);                                                                                                                                                                                                                                                     
+            model.addAttribute("finishCarList", finishCarList);
         }
 
         return "cars";
